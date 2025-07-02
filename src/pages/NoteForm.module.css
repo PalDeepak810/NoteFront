@@ -1,0 +1,63 @@
+/* Ensure background is applied properly */
+.background {
+  background-image: url("../assets/back.jpg"); /* Ensure the correct path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Improve form container styling */
+.formContainer {
+  background: rgba(
+    232,
+    229,
+    229,
+    0.7
+  ); /* Slightly transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  color: white; /* Ensure text remains visible */
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+/* Add spacing between input fields */
+.inputField,
+.textareaField {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(28, 22, 22);
+  margin-bottom: 15px; /* Adds spacing between input fields */
+}
+
+/* Button container spacing */
+.buttonContainer {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Adds spacing between buttons */
+  width: 100%;
+}
+
+/* Ensure buttons take full width */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(0, 123, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 123, 255, 1);
+}

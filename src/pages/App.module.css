@@ -1,0 +1,8 @@
+body {
+  background-image: url("/assets/Background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; /* Make text visible on dark background */
+  font-family: "Arial", sans-serif;
+}
